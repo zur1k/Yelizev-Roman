@@ -79,15 +79,10 @@
 hr {
   margin: 20px 0; }
 
-a
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  line-height: 1.5;
-  /* color: #404040 */
-  /*.dark {
-      background-color: #202020;
-      color: #ECECEC; */ }
+  line-height: 1.5; }
 
 .container {
   max-width: 1230px;
@@ -231,6 +226,7 @@ body {
   transform: translateX(50%);
   right: 50%;
   z-index: 5;
+  max-width: 100%;
   font-size: 100px;
   font-weight: 400;
   text-transform: uppercase;
@@ -239,7 +235,7 @@ body {
     font-size: 30px;
     padding: 10px 20px; }
   .main__title img {
-    max-width: 70%; }
+    width: 100%; }
 
 .contacts-bar {
   color: #Fff;
@@ -598,7 +594,7 @@ body {
   text-align: center;
   transform: translateX(50%);
   width: 50%;
-  top: 50%; }
+  top: 35%; }
 
 .instagram-text span {
   text-transform: uppercase;
@@ -673,7 +669,7 @@ body {
     background-color: #000; }
   .nav-menu__btn {
     display: block;
-    padding: 20px 0; }
+    padding: 17px 0; }
   .nav-menu__link {
     width: 100%; }
   .nav-menu__btn::after {
@@ -711,7 +707,9 @@ body {
     padding: 20px 0; }
   .about-content__title,
   .about-content__text {
-    margin: 0 0 10px; }
+    margin: 0 0 10px;
+    max-width: 300px;
+    margin: 0 auto; }
   .tabs {
     margin: 0px 0 10px 0; }
   .tab {
@@ -720,7 +718,10 @@ body {
     margin: 0 3px 0 0; }
   .tab i {
     font-size: 8px;
-    margin: 0 2px 0px 0; } }
+    margin: 0 2px 0px 0; }
+  .services-item__text {
+    max-width: 300px;
+    margin: 0 auto 15px; } }
 
 @media (max-width: 599px) {
   .instagram-mobile__edit {
@@ -753,7 +754,7 @@ body {
     padding: 10px 20px; }
   .artist-discr {
     width: 100%;
-    max-width: 320px; } }
+    max-width: 250px; } }
 
 @media (max-width: 360px) {
   .works img {

@@ -5,18 +5,12 @@
 hr {
     margin: 20px 0;
 }
-a
 
 body {
     font-family: 'Open Sans', sans-serif;
     // font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    /* color: #404040 */
-
-    /*.dark {
-      background-color: #202020;
-      color: #ECECEC; */
 }
 
 
@@ -231,6 +225,7 @@ body {
     transform: translateX(50%);
     right: 50%;
     z-index: 5;
+    max-width: 100%;
     font-size: 100px;
     font-weight: 400;
     text-transform: uppercase;
@@ -240,10 +235,10 @@ body {
         font-size: 30px;
         padding: 10px 20px;
     }
-
     & img {
-        max-width: 70%;
+        width: 100%;
     }
+
 }
 
 // contacts-bar 
@@ -764,7 +759,7 @@ body {
         text-align: center;
         transform: translateX(50%);
         width: 50%;
-        top: 50%;
+        top: 35%;
     }
     &-text span {
         text-transform: uppercase;
