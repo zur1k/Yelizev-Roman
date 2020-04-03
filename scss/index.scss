@@ -12,7 +12,9 @@ body {
     font-size: 14px;
     line-height: 1.5;
 }
-
+// .overflow {
+//     overflow: hidden;
+// }
 
 .container {
 
@@ -35,6 +37,7 @@ body {
     z-index: 15;
     left: 0;
     right: 0;
+
 
 
     &-title {
@@ -191,7 +194,7 @@ body {
 .slider {
     &-top {
         position: relative;
-    }
+        }
 
     &-top::before {
         content: "";
@@ -242,6 +245,23 @@ body {
 }
 
 // contacts-bar 
+.fixed{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    height: 50px;
+    text-align: center;
+    transition:all .5s ;
+    visibility: visible;
+  }
+  .hide{
+  visibility: hidden;
+    transition:all .5s ;
+  }
+
+
 
 .contacts-bar {
     color: #Fff;
@@ -264,11 +284,13 @@ body {
         width: 50%;
         padding: 20px 40px;
         background-color: rgb(32, 32, 32);
+        text-align: start;
     }
 
     &__other a {
         color: #Fff;
         text-decoration: none;
+
     }
 
     &__other i {
@@ -391,6 +413,7 @@ body {
     background-image: url(../images/bg-services.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    overflow: hidden;
 
     &-wrapper {
         background: rgba(0, 0, 0, .75);
@@ -535,6 +558,7 @@ body {
     background-size: cover;
     color: #Fff;
     text-align: center;
+    overflow: hidden;
 
     &-wrapper {
         background-color: rgba(0, 0, 0, .7);
@@ -587,9 +611,11 @@ body {
     }
 
     &-photo {
-        width: 170px;
+        max-width: 200px;
+        width: 100%;
         height: 170px;
-        border-radius: 50%;
+        border-radius: 20px;
+        padding: 0 1    0px;
         margin: 0 auto 20px;
         display: block;
     }
@@ -620,19 +646,18 @@ body {
         justify-content: space-between;
     }
 
-    &-social__btn {
+    &-social__btn i {
         font-size: 18px;
-        width: 40px;
         color: #fff;
-        display: inline-block;
-        padding: 6px;
+        display:block;
+        padding: 5px 8px;
         border-radius: 5px;
         background-color: #868686;
         margin: 5px;
-        transition: all .2 linear;
+        transition: all .2s linear;
     }
 
-    &-social__btn:hover {
+    &-social__btn:hover i {
         background-color: #352c2c;
     }
 }
@@ -709,7 +734,7 @@ body {
         width: 40px;
         color: #fff;
         display: inline-block;
-        padding: 6px;
+        padding: 5px 8px;
         border-radius: 5px;
         background-color: #868686;
         margin: 5px;
@@ -738,14 +763,6 @@ body {
         margin: 0 auto;
         position: relative;
 
-    }
-    &-wrapper::before
-    {   
-        // content:"";
-        // width: 100%;    
-        // position: absolute;  
-        // height: 100%;        
-        // background-color: rgba(153, 6, 6, 0.355);
     }
     &-text  a{
         color: #fa4109f8;

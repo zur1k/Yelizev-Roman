@@ -20,7 +20,10 @@ $(function () {
     //  
     lightbox.option({
         'resizeDuration': 200,
-        'wrapAround': true
+        'wrapAround': false,
+        'disableScrolling':true,
+        'showImageNumberLabel':false
+     
     });
 
     //   tab-bar 
@@ -37,6 +40,26 @@ $(function () {
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
+    });
+
+    // contact bar for scroll
+
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+    
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+    
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+    
+    $(window).on('scroll', function() {
+        if ($('.footer').isInViewport()) {
+            $('.fixed').addClass('hide');
+        } else {
+            $('.fixed').removeClass('hide');
+        }
     });
     
 });

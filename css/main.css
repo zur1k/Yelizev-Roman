@@ -237,6 +237,21 @@ body {
   .main__title img {
     width: 100%; }
 
+.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  height: 50px;
+  text-align: center;
+  transition: all .5s;
+  visibility: visible; }
+
+.hide {
+  visibility: hidden;
+  transition: all .5s; }
+
 .contacts-bar {
   color: #Fff;
   display: flex;
@@ -254,7 +269,8 @@ body {
   .contacts-bar__other {
     width: 50%;
     padding: 20px 40px;
-    background-color: #202020; }
+    background-color: #202020;
+    text-align: start; }
   .contacts-bar__other a {
     color: #Fff;
     text-decoration: none; }
@@ -347,7 +363,8 @@ body {
   background-color: #444444;
   background-image: url(../images/bg-services.jpg);
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: hidden; }
   .services-wrapper {
     background: rgba(0, 0, 0, 0.75); }
   .services-inner {
@@ -442,7 +459,8 @@ body {
   background-image: url(../images/bg-app.jpg);
   background-size: cover;
   color: #Fff;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
   .appointment-wrapper {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 80px 0; }
@@ -479,9 +497,11 @@ body {
   .artist-wrapper {
     text-align: center; }
   .artist-photo {
-    width: 170px;
+    max-width: 200px;
+    width: 100%;
     height: 170px;
-    border-radius: 50%;
+    border-radius: 20px;
+    padding: 0 1    0px;
     margin: 0 auto 20px;
     display: block; }
   .artist-name {
@@ -502,17 +522,16 @@ body {
     width: 120px;
     margin: 0 auto 80px;
     justify-content: space-between; }
-  .artist-social__btn {
+  .artist-social__btn i {
     font-size: 18px;
-    width: 40px;
     color: #fff;
-    display: inline-block;
-    padding: 6px;
+    display: block;
+    padding: 5px 8px;
     border-radius: 5px;
     background-color: #868686;
     margin: 5px;
-    transition: all .2 linear; }
-  .artist-social__btn:hover {
+    transition: all .2s linear; }
+  .artist-social__btn:hover i {
     background-color: #352c2c; }
 
 .footer {
@@ -560,7 +579,7 @@ body {
     width: 40px;
     color: #fff;
     display: inline-block;
-    padding: 6px;
+    padding: 5px 8px;
     border-radius: 5px;
     background-color: #868686;
     margin: 5px;
@@ -617,6 +636,12 @@ body {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: block; }
+
+@media (max-width: 1270px) {
+  .contacts-bar__other,
+  .contacts-bar__address {
+    font-size: 12px;
+    padding: 10px 20px; } }
 
 @media (max-width: 1225px) {
   .works {
@@ -700,7 +725,16 @@ body {
   .appointment-cta__title {
     margin-bottom: 10px; }
   .artist-social {
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .footer-items {
+    flex-direction: column; }
+  .footer-item {
+    width: 70%;
+    padding: 40px 40px 20px;
+    margin: 0 auto; }
+  .footer-item__title {
+    font-size: 20px;
+    margin-bottom: 10px; } }
 
 @media (max-width: 660px) {
   .about-inner {
@@ -730,7 +764,12 @@ body {
     font-size: 27px; }
   .instagram-img {
     max-width: 120px;
-    height: 120px; } }
+    height: 120px; }
+  .contacts-bar__other,
+  .contacts-bar__address {
+    font-size: 12px;
+    padding: 10px 10px;
+    text-align: center; } }
 
 @media (max-width: 550px) {
   .works {
@@ -754,12 +793,21 @@ body {
     padding: 10px 20px; }
   .artist-discr {
     width: 100%;
-    max-width: 250px; } }
+    max-width: 250px; }
+  .footer-items {
+    flex-direction: column; }
+  .footer-item {
+    width: 100%;
+    padding: 40px 40px 20px;
+    margin: 0 auto; }
+  .footer-item__title {
+    font-size: 20px;
+    margin-bottom: 10px; } }
 
 @media (max-width: 360px) {
   .works img {
-    width: 290px;
+    width: 100%;
     height: 290px; }
   .works-item {
-    width: 290px;
+    width: 100%;
     height: 290px; } }
