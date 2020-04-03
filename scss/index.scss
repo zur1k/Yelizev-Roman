@@ -721,6 +721,10 @@ body {
         font-size: 18px;
 
     }
+    &-item__subtitle a {
+        text-decoration: none;
+        color: #fff;
+    }
 
     &-social {
         display: flex;
@@ -728,17 +732,15 @@ body {
         justify-content: space-between;
     }
 
-    &-social__btn {
-        text-align: center;
+    &-social__btn i {
         font-size: 18px;
-        width: 40px;
         color: #fff;
         display: inline-block;
         padding: 5px 8px;
         border-radius: 5px;
         background-color: #868686;
         margin: 5px;
-        transition: all .2s;
+        transition: all .2s linear;
     }
 
 

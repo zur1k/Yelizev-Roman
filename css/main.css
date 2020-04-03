@@ -569,21 +569,22 @@ body {
   .footer-item__subtitle {
     font-weight: 600;
     font-size: 18px; }
+  .footer-item__subtitle a {
+    text-decoration: none;
+    color: #fff; }
   .footer-social {
     display: flex;
     width: 120px;
     justify-content: space-between; }
-  .footer-social__btn {
-    text-align: center;
+  .footer-social__btn i {
     font-size: 18px;
-    width: 40px;
     color: #fff;
     display: inline-block;
     padding: 5px 8px;
     border-radius: 5px;
     background-color: #868686;
     margin: 5px;
-    transition: all .2s; }
+    transition: all .2s linear; }
 
 .copyright {
   text-align: center;
