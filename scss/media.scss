@@ -93,11 +93,16 @@
 
 @media (max-width:1000px) {
 
+    .header-top {
+   
+       
+    }
     // .nav-menu
     .nav-menu {
         display: none;
         flex-direction: column;
         background-color: #000;
+        height: 100vh;
     }
 
     .nav-menu__btn {
@@ -175,6 +180,12 @@
         margin-bottom: 10px;
     }
 }
+@media (max-width:880px) {
+    .contacts-bar {
+        display: none;
+    }
+}
+
 @media (max-width:660px) {
     // about 
     .about-inner {

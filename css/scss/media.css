@@ -52,7 +52,8 @@
   .nav-menu {
     display: none;
     flex-direction: column;
-    background-color: #000; }
+    background-color: #000;
+    height: 100vh; }
   .nav-menu__btn {
     display: block;
     padding: 17px 0; }
@@ -96,6 +97,10 @@
   .footer-item__title {
     font-size: 20px;
     margin-bottom: 10px; } }
+
+@media (max-width: 880px) {
+  .contacts-bar {
+    display: none; } }
 
 @media (max-width: 660px) {
   .about-inner {
