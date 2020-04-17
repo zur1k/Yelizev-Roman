@@ -11,6 +11,8 @@ body {
     // font-family: 'Roboto Condensed', sans-serif;
     font-size: 14px;
     line-height: 1.5;
+    background: #000;
+    color: #fff;
 }
 // .overflow {
 //     overflow: hidden;
@@ -304,7 +306,7 @@ body {
     padding: 80px 20px;
     font-size: 34px;
     letter-spacing: 2px;
-    color: #000;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -412,7 +414,7 @@ body {
     background-color: #444444;
     background-image: url(../images/bg-services.jpg);
     background-size: contain;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -810,6 +812,7 @@ body {
         flex-wrap: wrap; 
         display: flex;
         opacity: 0.6;
+        margin-bottom: 60px;
     
     }
     &-item {
@@ -820,8 +823,8 @@ body {
     &-img {
         width: 150px;
         height: 150px;
-        border-bottom: 1px solid #fff;
-        border-right: 1px solid #fff;
+        border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
         display: block;
     }
 
