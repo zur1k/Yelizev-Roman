@@ -412,6 +412,7 @@ body {
     background-color: #444444;
     background-image: url(../images/bg-services.jpg);
     background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -444,17 +445,19 @@ body {
     }
 
     &-item__text {
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing: 0.5px;
         margin-bottom: 25px;
         color: #ECECEC;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 14px;
     }
 }
 
 // about us
 .about {
     background: rgba(0, 0, 0, .9);
+    overflow: hidden;
 
     &-wrapper {
         background-color: rgb(36, 33, 33);
@@ -476,15 +479,20 @@ body {
     &-content__title {
         font-size: 24px;
         font-weight: 800;
-        margin: 0 0 20px 0;
+     
 
     }
 
     &-content__text {
         margin: 0 0 20px 0;
-        line-height: 1.2;
-        font-size: 13px;
-        letter-spacing: .5px;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    &-content__title,
+    &-content__text {
+        padding: 10px;;
     }
 
     &-images {
@@ -528,13 +536,20 @@ body {
     font-size: 14px;
     font-weight: 800;
     background: #000;
-    margin: 0 5px 0 0;
+    margin: 10px 10px 0;
+    display: inline-block;
 
     &-item {
         padding: 10px 10px;
+        line-height: 1.5;
         letter-spacing: 1px;
         font-weight: 300;
         font-size: 14px;
+    }
+    &-item h4 { 
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
     }
 
     &-wrapper .active {
@@ -571,6 +586,10 @@ body {
         text-align: center;
         font-size: 16px;
         margin-bottom: 40px;
+    }
+    &-cta__info strong {
+        margin-left: 10px;
+        text-transform: uppercase;
     }
 
     &-title {

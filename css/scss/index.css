@@ -288,6 +288,7 @@ body {
   background-color: #444444;
   background-image: url(../images/bg-services.jpg);
   background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
   overflow: hidden; }
   .services-wrapper {
@@ -307,14 +308,16 @@ body {
     margin-bottom: 25px;
     font-weight: 800; }
   .services-item__text {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.5px;
     margin-bottom: 25px;
-    color: #ECECEC; }
+    color: #ECECEC;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px; }
 
 .about {
-  background: rgba(0, 0, 0, 0.9); }
+  background: rgba(0, 0, 0, 0.9);
+  overflow: hidden; }
   .about-wrapper {
     background-color: #242121; }
   .about-inner {
@@ -328,13 +331,15 @@ body {
     font-family: 'Roboto Condensed', sans-serif; }
   .about-content__title {
     font-size: 24px;
-    font-weight: 800;
-    margin: 0 0 20px 0; }
+    font-weight: 800; }
   .about-content__text {
     margin: 0 0 20px 0;
-    line-height: 1.2;
-    font-size: 13px;
-    letter-spacing: .5px; }
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px; }
+  .about-content__title, .about-content__text {
+    padding: 10px; }
   .about-images {
     width: 50%;
     padding: 0 20px; }
@@ -363,12 +368,18 @@ body {
   font-size: 14px;
   font-weight: 800;
   background: #000;
-  margin: 0 5px 0 0; }
+  margin: 10px 10px 0;
+  display: inline-block; }
   .tab-item {
     padding: 10px 10px;
+    line-height: 1.5;
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 14px; }
+  .tab-item h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px; }
   .tab-wrapper .active {
     color: #000;
     background: #868686; }
@@ -395,6 +406,9 @@ body {
     text-align: center;
     font-size: 16px;
     margin-bottom: 40px; }
+  .appointment-cta__info strong {
+    margin-left: 10px;
+    text-transform: uppercase; }
   .appointment-title {
     padding: 0 0 0 0;
     margin-bottom: 20px;

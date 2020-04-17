@@ -46,7 +46,9 @@
   .black-style {
     margin-bottom: 20px; }
   .title {
-    padding: 20px 20px; } }
+    padding: 20px 20px; }
+  .about-inner {
+    padding: 20px 0 40px; } }
 
 @media (max-width: 1000px) {
   .nav-menu {
@@ -100,7 +102,7 @@
 
 @media (max-width: 880px) {
   .contacts-bar {
-    display: none; } }
+    display: flex; } }
 
 @media (max-width: 660px) {
   .about-inner {
@@ -108,12 +110,12 @@
   .about-content__title,
   .about-content__text {
     margin: 0 0 10px;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto; }
   .tabs {
     margin: 0px 0 10px 0; }
   .tab {
-    padding: 5px;
+    padding: 10px 5px;
     font-size: 13px;
     margin: 0 3px 0 0; }
   .tab i {
