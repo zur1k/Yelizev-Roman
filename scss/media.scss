@@ -4,8 +4,7 @@
     .contacts-bar__other,
     .contacts-bar__address {
         font-size: 12px;
-        padding: 10px 20px;
-
+     
     }
 
 }
@@ -87,13 +86,18 @@
     }
 
     .title {
-        padding: 20px 20px;
+        padding: 25px 20px;
+        background-size: contain;
     }
 
     // about 
     .about-inner
     {
         padding: 20px 0 40px;
+    }
+    .corona 
+    {
+        background-size: contain;
     }
 }
 
@@ -112,6 +116,7 @@
     .nav-menu__btn {
         display: block;
         padding: 17px 0;
+        font-size: 17px;
     }
 
     .nav-menu__link {
@@ -188,6 +193,10 @@
     .contacts-bar {
         display: flex;
     }
+       // footer 
+       .footer-item {
+           padding: 10px;
+       }
 }
 
 @media (max-width:660px) {
@@ -219,6 +228,18 @@
     .services-item__text {
         max-width: 300px;
         margin:0 auto 15px; }
+
+            // contact bar 
+
+    .contacts-bar__other,
+    .contacts-bar__address {
+        font-size: 12px;
+        text-align: center;
+        padding: 6px 10px;
+     
+    }
+    
+
     
 }
 @media (max-width:599px){
@@ -234,15 +255,7 @@
     max-width:120px;
     height: 120px;
 }
-    // contact bar 
 
-    .contacts-bar__other,
-    .contacts-bar__address {
-        font-size: 12px;
-        padding: 10px 10px;
-        text-align: center;
-    }
-    
 
 }
 
@@ -296,12 +309,12 @@
         }
         .footer-item {
             width: 100%;
-            padding: 40px 40px 20px;
+            padding: 10px 40px 20px;
             margin: 0 auto;
         }
         .footer-item__title {
             font-size: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 0;
         }
 
 

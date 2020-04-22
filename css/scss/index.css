@@ -187,15 +187,15 @@ body {
   margin-top: -50px;
   position: fixed;
   width: 100%;
-  font-size: 13px; }
+  font-size: 14px; }
   .contacts-bar__address {
     width: 50%;
-    padding: 20px 40px;
+    padding: 15px 40px;
     text-align: end;
     background-color: #000; }
   .contacts-bar__other {
     width: 50%;
-    padding: 20px 40px;
+    padding: 15px 40px;
     background-color: #202020;
     text-align: start; }
   .contacts-bar__other a {
@@ -220,7 +220,7 @@ body {
   background-position: center;
   min-height: 120px;
   margin-bottom: 80px;
-  background-image: url(../images/diamond-light.png);
+  background-image: url(../images/diamond-dark.png);
   border-bottom: 1px solid rgba(39, 36, 36, 0.2); }
 
 .eagle {
@@ -229,11 +229,11 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
 
-.corona-light {
-  background-image: url(../images/corona-light.png);
+.corona {
+  background-image: url(../images/corona-dark.png);
   background-repeat: no-repeat;
   background-position: center;
-  border-bottom: 1px solid #f8f0f0;
+  border-bottom: 1px solid rgba(248, 240, 240, 0.2);
   margin-bottom: 80px; }
 
 .bg-black {
@@ -297,18 +297,22 @@ body {
     background: rgba(0, 0, 0, 0.75); }
   .services-inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding-bottom: 80px; }
+    padding-bottom: 80px;
+    text-align: center; }
   .services-item {
-    width: 350px;
+    max-width: 500px;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 0 20px; }
   .services-item__title {
-    font-size: 24px;
+    font-size: 16px;
     color: #fff;
     margin-bottom: 25px;
-    font-weight: 800; }
+    font-weight: 600;
+    text-align: center; }
+  .services-item__title i {
+    margin-right: 5px; }
   .services-item__text {
     margin-bottom: 25px;
     color: #ECECEC;

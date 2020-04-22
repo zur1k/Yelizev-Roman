@@ -16,6 +16,13 @@ $(function () {
         $("#nav").toggleClass("active");
 
     }); 
+    $(".nav-menu__link").on("click", function(event) {
+        event.preventDefault();
+
+        $("#nav_toggle").toggleClass("active");
+        $("#nav").toggleClass("active");
+
+    }); 
 
     //  
     lightbox.option({
@@ -39,7 +46,7 @@ $(function () {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
-        $('body,html').animate({scrollTop: top}, 1500);
+        $('body,html').animate({scrollTop: top}, 1700);
     });
 
     // contact bar for scroll

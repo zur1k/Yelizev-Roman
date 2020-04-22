@@ -1,8 +1,7 @@
 @media (max-width: 1270px) {
   .contacts-bar__other,
   .contacts-bar__address {
-    font-size: 12px;
-    padding: 10px 20px; } }
+    font-size: 12px; } }
 
 @media (max-width: 1225px) {
   .works {
@@ -46,9 +45,12 @@
   .black-style {
     margin-bottom: 20px; }
   .title {
-    padding: 20px 20px; }
+    padding: 25px 20px;
+    background-size: contain; }
   .about-inner {
-    padding: 20px 0 40px; } }
+    padding: 20px 0 40px; }
+  .corona {
+    background-size: contain; } }
 
 @media (max-width: 1000px) {
   .nav-menu {
@@ -58,7 +60,8 @@
     height: 100vh; }
   .nav-menu__btn {
     display: block;
-    padding: 17px 0; }
+    padding: 17px 0;
+    font-size: 17px; }
   .nav-menu__link {
     width: 100%; }
   .nav-menu__btn::after {
@@ -102,7 +105,9 @@
 
 @media (max-width: 880px) {
   .contacts-bar {
-    display: flex; } }
+    display: flex; }
+  .footer-item {
+    padding: 10px; } }
 
 @media (max-width: 660px) {
   .about-inner {
@@ -123,7 +128,12 @@
     margin: 0 2px 0px 0; }
   .services-item__text {
     max-width: 300px;
-    margin: 0 auto 15px; } }
+    margin: 0 auto 15px; }
+  .contacts-bar__other,
+  .contacts-bar__address {
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 10px; } }
 
 @media (max-width: 599px) {
   .instagram-mobile__edit {
@@ -132,12 +142,7 @@
     font-size: 27px; }
   .instagram-img {
     max-width: 120px;
-    height: 120px; }
-  .contacts-bar__other,
-  .contacts-bar__address {
-    font-size: 12px;
-    padding: 10px 10px;
-    text-align: center; } }
+    height: 120px; } }
 
 @media (max-width: 550px) {
   .works {
@@ -166,11 +171,11 @@
     flex-direction: column; }
   .footer-item {
     width: 100%;
-    padding: 40px 40px 20px;
+    padding: 10px 40px 20px;
     margin: 0 auto; }
   .footer-item__title {
     font-size: 20px;
-    margin-bottom: 10px; } }
+    margin-bottom: 0; } }
 
 @media (max-width: 360px) {
   .works img {
