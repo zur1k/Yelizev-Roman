@@ -1,0 +1,203 @@
+@media (max-width: 1270px) {
+  .contacts-bar__other,
+  .contacts-bar__address {
+    font-size: 12px; } }
+
+@media (max-width: 1225px) {
+  .works {
+    justify-content: space-around;
+    margin-bottom: 40px; }
+  .works img {
+    width: 450px;
+    height: 450px; }
+  .works-item {
+    width: 450px;
+    height: 450px; }
+  .title {
+    padding: 40px 20px;
+    line-height: 1.5; }
+  .bg-title {
+    min-height: 60px; }
+  .diamond, .corona-light {
+    margin-bottom: 0;
+    border-bottom: none;
+    background: none; }
+  .services-inner {
+    padding-bottom: 40px; }
+  .about-inner {
+    padding: 40px 0;
+    flex-direction: column-reverse; }
+  .about-content,
+  .about-images {
+    width: 100%;
+    text-align: center; }
+  .about-images {
+    margin-bottom: 15px; }
+  .about-content {
+    max-width: 700px;
+    margin: 0 auto; }
+  .about-images__subtitle {
+    display: none; } }
+
+@media (max-width: 1080px) {
+  .services-item {
+    width: 50%; }
+  .black-style {
+    margin-bottom: 20px; }
+  .title {
+    padding: 25px 20px;
+    background-size: contain; }
+  .about-inner {
+    padding: 20px 0 40px; }
+  .corona {
+    background-size: contain; } }
+
+@media (max-width: 1000px) {
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    height: 100vh; }
+  .nav-menu__btn {
+    display: block;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400; }
+  .nav-menu__link {
+    width: 100%; }
+  .nav-menu__btn::after {
+    display: none; }
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding: 14px 10px;
+    background: rgba(0, 0, 0, 0.1); }
+  .services-inner {
+    padding-bottom: 25px; }
+  .services-item__title {
+    margin-bottom: 15px; }
+  .services-item__text {
+    margin-bottom: 15px; }
+  .appointment-wrapper {
+    padding: 40px  0; }
+  .appointment-title {
+    font-size: 28px;
+    padding: 10px 20px;
+    margin: 0 0 10px; }
+  .appointment-cta__info {
+    margin-bottom: 10px; }
+  .appointment-cta__title {
+    margin-bottom: 10px; }
+  .artist-social {
+    margin-bottom: 40px; }
+  .footer-items {
+    flex-direction: column; }
+  .footer-item {
+    width: 70%;
+    padding: 40px 40px 20px;
+    margin: 0 auto; }
+  .footer-item__title {
+    font-size: 20px;
+    margin-bottom: 10px; } }
+
+@media (max-width: 880px) {
+  .contacts-bar {
+    display: flex; }
+  .footer-item {
+    padding: 10px; } }
+
+@media (max-width: 660px) {
+  .about-inner {
+    padding: 20px 0; }
+  .about-content__title,
+  .about-content__text {
+    margin: 0 0 10px;
+    max-width: 400px;
+    margin: 0 auto; }
+  .tabs {
+    margin: 0px 0 10px 0; }
+  .tab {
+    padding: 10px 5px;
+    font-size: 13px;
+    margin: 0 3px 0 0; }
+  .tab i {
+    font-size: 8px;
+    margin: 0 2px 0px 0; }
+  .services-item__text {
+    max-width: 300px;
+    margin: 0 auto 15px; }
+  .contacts-bar__other,
+  .contacts-bar__address {
+    font-size: 12px;
+    text-align: center;
+    padding: 16px 10px; }
+  .footer-item__subtitle {
+    font-size: 14px; }
+  .footer-item__suptitle {
+    font-size: 12px; }
+  .footer-item__day {
+    margin: 0 0 5px; }
+  .footer-item__logo {
+    margin: 0 auto 0px; } }
+
+@media (max-width: 599px) {
+  .instagram-mobile__edit {
+    display: none; }
+  .instagram-text a {
+    font-size: 27px; }
+  .instagram-img {
+    max-width: 120px;
+    height: 120px; } }
+
+@media (max-width: 550px) {
+  .works {
+    margin-bottom: 20px; }
+  .works img {
+    width: 350px;
+    height: 350px; }
+  .works-item {
+    width: 350px;
+    height: 350px; }
+  .title {
+    padding: 25px 20px;
+    line-height: 1.5;
+    font-size: 25px; }
+  .services-item {
+    width: 100%;
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto; }
+  .appointment-title {
+    padding: 10px 20px; }
+  .artist-discr {
+    width: 100%;
+    max-width: 250px; }
+  .footer-items {
+    flex-direction: column; }
+  .footer-item {
+    width: 100%;
+    padding: 10px 40px;
+    margin: 0 auto; }
+  .footer-item__title {
+    font-size: 20px;
+    margin-bottom: 15px; } }
+
+@media (max-width: 500px) {
+  .contacts-bar__address {
+    padding: 6px 0px 6px 10px; }
+  .contacts-bar__other {
+    padding: 14px 10px; } }
+
+@media (max-width: 438px) {
+  .contacts-bar__other {
+    padding: 6px 10px; } }
+
+@media (max-width: 360px) {
+  .works img {
+    width: 100%;
+    height: 290px; }
+  .works-item {
+    width: 100%;
+    height: 290px; } }
