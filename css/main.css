@@ -120,7 +120,6 @@ body {
     color: #BDC3C7;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 600;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -131,7 +130,7 @@ body {
     overflow: hidden; }
   .nav-menu__btn:hover {
     color: #fff;
-    font-weight: 800; }
+    font-weight: 700; }
   .nav-menu__btn::after {
     position: absolute;
     bottom: 0;
@@ -296,7 +295,7 @@ body {
   min-height: 120px;
   margin-bottom: 80px;
   background-image: url(../images/diamond-dark.png);
-  border-bottom: 1px solid rgba(39, 36, 36, 0.2); }
+  border-bottom: 1px solid rgba(114, 108, 108, 0.4); }
 
 .eagle {
   color: #fff;
@@ -327,7 +326,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px; }
+  margin-bottom: 30px; }
   .works-item {
     width: 380px;
     height: 380px;
@@ -359,6 +358,14 @@ body {
     width: 380px;
     height: 380px;
     display: block; }
+  .works-link__instagram {
+    display: block;
+    color: #Fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px; }
 
 .services {
   position: static;
@@ -370,6 +377,16 @@ body {
   overflow: hidden; }
   .services-wrapper {
     background: rgba(0, 0, 0, 0.75); }
+  .services-title {
+    margin-bottom: 10px; }
+  .services-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ECECEC;
+    line-height: 1.5;
+    letter-spacing: 1px; }
   .services-inner {
     display: flex;
     justify-content: space-around;
@@ -411,8 +428,8 @@ body {
     padding: 0 20px;
     font-family: 'Roboto Condensed', sans-serif; }
   .about-content__title {
-    font-size: 24px;
-    font-weight: 800; }
+    font-size: 22px;
+    font-weight: 700; }
   .about-content__text {
     margin: 0 0 20px 0;
     line-height: 1.5;
@@ -423,7 +440,7 @@ body {
     padding: 10px; }
   .about-images {
     width: 50%;
-    padding: 0 20px; }
+    padding: 10px; }
   .about-images__img {
     max-width: 100%; }
   .about-images__subtitle {
@@ -447,7 +464,7 @@ body {
   cursor: pointer;
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   background: #000;
   margin: 10px 10px 0;
   display: inline-block; }
@@ -457,6 +474,11 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 14px; }
+    .tab-item__text {
+      line-height: 1.5;
+      letter-spacing: 1px;
+      font-weight: 300;
+      font-size: 14px; }
   .tab-item h4 {
     font-size: 16px;
     font-weight: 600;
@@ -526,11 +548,11 @@ body {
     display: block; }
   .artist-name {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 20px 0; }
   .artist-style {
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 20px 0; }
   .artist-discr {
     width: 300px;
@@ -623,8 +645,8 @@ body {
   position: relative; }
 
 .instagram-text a {
-  color: #fa4109f8;
-  font-weight: 800;
+  color: #ffffff;
+  font-weight: 700;
   font-size: 40px;
   text-decoration: none;
   z-index: 5;
@@ -721,8 +743,9 @@ body {
     height: 100vh; }
   .nav-menu__btn {
     display: block;
-    padding: 17px 0;
-    font-size: 17px; }
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400; }
   .nav-menu__link {
     width: 100%; }
   .nav-menu__btn::after {
@@ -734,8 +757,6 @@ body {
     top: 15px;
     padding: 14px 10px;
     background: rgba(0, 0, 0, 0.1); }
-  .main__title {
-    top: 44%; }
   .services-inner {
     padding-bottom: 25px; }
   .services-item__title {
@@ -794,7 +815,15 @@ body {
   .contacts-bar__address {
     font-size: 12px;
     text-align: center;
-    padding: 6px 10px; } }
+    padding: 16px 10px; }
+  .footer-item__subtitle {
+    font-size: 14px; }
+  .footer-item__suptitle {
+    font-size: 12px; }
+  .footer-item__day {
+    margin: 0 0 5px; }
+  .footer-item__logo {
+    margin: 0 auto 0px; } }
 
 @media (max-width: 599px) {
   .instagram-mobile__edit {
@@ -832,11 +861,21 @@ body {
     flex-direction: column; }
   .footer-item {
     width: 100%;
-    padding: 10px 40px 20px;
+    padding: 10px 40px;
     margin: 0 auto; }
   .footer-item__title {
     font-size: 20px;
-    margin-bottom: 0; } }
+    margin-bottom: 15px; } }
+
+@media (max-width: 500px) {
+  .contacts-bar__address {
+    padding: 6px 0px 6px 10px; }
+  .contacts-bar__other {
+    padding: 14px 10px; } }
+
+@media (max-width: 438px) {
+  .contacts-bar__other {
+    padding: 6px 10px; } }
 
 @media (max-width: 360px) {
   .works img {

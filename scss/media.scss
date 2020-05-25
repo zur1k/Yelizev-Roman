@@ -115,8 +115,10 @@
 
     .nav-menu__btn {
         display: block;
-        padding: 17px 0;
-        font-size: 17px;
+        padding: 20px 0;
+        font-size: 14px;
+        font-weight: 400;
+     
     }
 
     .nav-menu__link {
@@ -135,11 +137,6 @@
         padding: 14px 10px;
         background: rgba(0, 0, 0, .1);
       
-    }
-
-    // title
-    .main__title {
-        top: 44%;
     }
 
     // services 
@@ -235,10 +232,23 @@
     .contacts-bar__address {
         font-size: 12px;
         text-align: center;
-        padding: 6px 10px;
-     
+        padding: 16px 10px;     
     }
-    
+    // footer 
+    .footer-item__subtitle 
+    {
+        font-size: 14px;
+    }
+    .footer-item__suptitle {
+        font-size: 12px;
+    }
+    .footer-item__day {
+        margin: 0 0 5px;
+    }
+
+   .footer-item__logo {   
+        margin: 0 auto 0px;}
+       
 
     
 }
@@ -309,16 +319,35 @@
         }
         .footer-item {
             width: 100%;
-            padding: 10px 40px 20px;
+            padding: 10px 40px;
             margin: 0 auto;
         }
         .footer-item__title {
             font-size: 20px;
-            margin-bottom: 0;
+            margin-bottom: 15px;
         }
 
 
 }
+@media (max-width:500px) 
+{
+                // contact bar 
+
+                
+                .contacts-bar__address {             
+                    padding: 6px 0px 6px 10px;     
+                }
+                .contacts-bar__other {
+                    padding:14px 10px;
+                }
+                
+}
+@media (max-width:438px)  {
+    .contacts-bar__other {
+        padding: 6px 10px;
+    }
+}
+
 
 @media (max-width:360px) // works
 

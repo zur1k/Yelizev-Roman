@@ -45,7 +45,6 @@ body {
     color: #BDC3C7;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 600;
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -56,7 +55,7 @@ body {
     overflow: hidden; }
   .nav-menu__btn:hover {
     color: #fff;
-    font-weight: 800; }
+    font-weight: 700; }
   .nav-menu__btn::after {
     position: absolute;
     bottom: 0;
@@ -221,7 +220,7 @@ body {
   min-height: 120px;
   margin-bottom: 80px;
   background-image: url(../images/diamond-dark.png);
-  border-bottom: 1px solid rgba(39, 36, 36, 0.2); }
+  border-bottom: 1px solid rgba(114, 108, 108, 0.4); }
 
 .eagle {
   color: #fff;
@@ -252,7 +251,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 80px; }
+  margin-bottom: 30px; }
   .works-item {
     width: 380px;
     height: 380px;
@@ -284,6 +283,14 @@ body {
     width: 380px;
     height: 380px;
     display: block; }
+  .works-link__instagram {
+    display: block;
+    color: #Fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px; }
 
 .services {
   position: static;
@@ -295,6 +302,16 @@ body {
   overflow: hidden; }
   .services-wrapper {
     background: rgba(0, 0, 0, 0.75); }
+  .services-title {
+    margin-bottom: 10px; }
+  .services-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #ECECEC;
+    line-height: 1.5;
+    letter-spacing: 1px; }
   .services-inner {
     display: flex;
     justify-content: space-around;
@@ -336,8 +353,8 @@ body {
     padding: 0 20px;
     font-family: 'Roboto Condensed', sans-serif; }
   .about-content__title {
-    font-size: 24px;
-    font-weight: 800; }
+    font-size: 22px;
+    font-weight: 700; }
   .about-content__text {
     margin: 0 0 20px 0;
     line-height: 1.5;
@@ -348,7 +365,7 @@ body {
     padding: 10px; }
   .about-images {
     width: 50%;
-    padding: 0 20px; }
+    padding: 10px; }
   .about-images__img {
     max-width: 100%; }
   .about-images__subtitle {
@@ -372,7 +389,7 @@ body {
   cursor: pointer;
   padding: 10px 20px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   background: #000;
   margin: 10px 10px 0;
   display: inline-block; }
@@ -382,6 +399,11 @@ body {
     letter-spacing: 1px;
     font-weight: 300;
     font-size: 14px; }
+    .tab-item__text {
+      line-height: 1.5;
+      letter-spacing: 1px;
+      font-weight: 300;
+      font-size: 14px; }
   .tab-item h4 {
     font-size: 16px;
     font-weight: 600;
@@ -451,11 +473,11 @@ body {
     display: block; }
   .artist-name {
     font-size: 24px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 20px 0; }
   .artist-style {
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0 0 20px 0; }
   .artist-discr {
     width: 300px;
@@ -548,8 +570,8 @@ body {
   position: relative; }
 
 .instagram-text a {
-  color: #fa4109f8;
-  font-weight: 800;
+  color: #ffffff;
+  font-weight: 700;
   font-size: 40px;
   text-decoration: none;
   z-index: 5;

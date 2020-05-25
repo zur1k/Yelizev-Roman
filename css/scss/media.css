@@ -60,8 +60,9 @@
     height: 100vh; }
   .nav-menu__btn {
     display: block;
-    padding: 17px 0;
-    font-size: 17px; }
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400; }
   .nav-menu__link {
     width: 100%; }
   .nav-menu__btn::after {
@@ -73,8 +74,6 @@
     top: 15px;
     padding: 14px 10px;
     background: rgba(0, 0, 0, 0.1); }
-  .main__title {
-    top: 44%; }
   .services-inner {
     padding-bottom: 25px; }
   .services-item__title {
@@ -133,7 +132,15 @@
   .contacts-bar__address {
     font-size: 12px;
     text-align: center;
-    padding: 6px 10px; } }
+    padding: 16px 10px; }
+  .footer-item__subtitle {
+    font-size: 14px; }
+  .footer-item__suptitle {
+    font-size: 12px; }
+  .footer-item__day {
+    margin: 0 0 5px; }
+  .footer-item__logo {
+    margin: 0 auto 0px; } }
 
 @media (max-width: 599px) {
   .instagram-mobile__edit {
@@ -171,11 +178,21 @@
     flex-direction: column; }
   .footer-item {
     width: 100%;
-    padding: 10px 40px 20px;
+    padding: 10px 40px;
     margin: 0 auto; }
   .footer-item__title {
     font-size: 20px;
-    margin-bottom: 0; } }
+    margin-bottom: 15px; } }
+
+@media (max-width: 500px) {
+  .contacts-bar__address {
+    padding: 6px 0px 6px 10px; }
+  .contacts-bar__other {
+    padding: 14px 10px; } }
+
+@media (max-width: 438px) {
+  .contacts-bar__other {
+    padding: 6px 10px; } }
 
 @media (max-width: 360px) {
   .works img {

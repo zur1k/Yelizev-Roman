@@ -71,7 +71,6 @@ body {
         color: #BDC3C7;
         text-transform: uppercase;
         text-decoration: none;
-        font-weight: 600;
         font-size: 13px;
         font-weight: 700;
         letter-spacing: 1px;
@@ -86,7 +85,7 @@ body {
 
     &__btn:hover {
         color: #fff;
-        font-weight: 800;
+        font-weight: 700;
     }
 
     &__btn::after {
@@ -286,7 +285,7 @@ body {
         width: 50%;
         padding:15px 40px;
         background-color: rgb(32, 32, 32);
-        text-align: start; 
+        text-align: start;
     }
 
     &__other a {
@@ -321,7 +320,7 @@ body {
     min-height: 120px;
     margin-bottom: 80px;
     background-image: url(../images/diamond-dark.png);
-    border-bottom: 1px solid rgba(39, 36, 36, .2);
+    border-bottom: 1px solid rgba(114, 108, 108, 0.4);
 }
 
 .eagle {
@@ -359,7 +358,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 
     &-item {
         width: 380px;
@@ -405,6 +404,16 @@ body {
         display: block;
 
     }
+    &-link__instagram {
+        display: block;
+        color: #Fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+
+        margin-bottom: 40px;
+    }
 
 }
 
@@ -420,6 +429,18 @@ body {
 
     &-wrapper {
         background: rgba(0, 0, 0, .75);
+    }
+    &-title {
+        margin-bottom: 10px;
+    }
+    &-subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        max-width: 600px;
+        margin: 0 auto;
+        color: #ECECEC;
+        line-height: 1.5;
+        letter-spacing: 1px;
     }
 
     &-inner {
@@ -484,8 +505,8 @@ body {
     }
 
     &-content__title {
-        font-size: 24px;
-        font-weight: 800;
+        font-size: 22px;
+        font-weight: 700;
      
 
     }
@@ -504,11 +525,12 @@ body {
 
     &-images {
         width: 50%;
-        padding: 0 20px;
+        padding:10px;
     }
 
     &-images__img {
         max-width: 100%;
+       
     }
 
     &-images__subtitle {
@@ -541,7 +563,7 @@ body {
     cursor: pointer;
     padding: 10px 20px;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     background: #000;
     margin: 10px 10px 0;
     display: inline-block;
@@ -552,6 +574,12 @@ body {
         letter-spacing: 1px;
         font-weight: 300;
         font-size: 14px;
+        &__text {
+            line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 14px;
+        }
     }
     &-item h4 { 
         font-size: 16px;
@@ -648,13 +676,13 @@ body {
 
     &-name {
         font-size: 24px;
-        font-weight: 800;
+        font-weight: 700;
         margin: 0 0 20px 0;
     }
 
     &-style {
         font-size: 14px;
-        font-weight: 800;
+        font-weight: 700;
         margin: 0 0 20px 0;
     }
 
@@ -793,8 +821,8 @@ body {
 
     }
     &-text  a{
-        color: #fa4109f8;
-        font-weight: 800;        
+        color: #ffffff;
+        font-weight: 700;        
         font-size: 40px;
         text-decoration: none;
         z-index: 5;
