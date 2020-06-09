@@ -691,6 +691,7 @@ body {
         margin: 0 auto 20px;
         line-height: 1.5;
         font-weight: 400;
+        
     }
 
     &-social {
@@ -776,6 +777,10 @@ body {
 
     }
     &-item__subtitle a {
+        text-decoration: none;
+        color: #fff;
+    }
+    &-item__address a {
         text-decoration: none;
         color: #fff;
     }

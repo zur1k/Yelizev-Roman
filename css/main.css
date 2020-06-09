@@ -567,7 +567,7 @@ body {
   .artist-social__btn i {
     font-size: 18px;
     color: #fff;
-    display: block;
+    display: inline-block;
     padding: 5px 8px;
     border-radius: 5px;
     background-color: #868686;
@@ -612,6 +612,9 @@ body {
     font-weight: 600;
     font-size: 18px; }
   .footer-item__subtitle a {
+    text-decoration: none;
+    color: #fff; }
+  .footer-item__address a {
     text-decoration: none;
     color: #fff; }
   .footer-social {
