@@ -294,17 +294,17 @@ body {
   background-position: center;
   min-height: 120px;
   margin-bottom: 80px;
-  background-image: url(../images/diamond-dark.png);
+  background-image: url(../images/icons/diamond-dark.png);
   border-bottom: 1px solid rgba(114, 108, 108, 0.4); }
 
 .eagle {
   color: #fff;
-  background-image: url(../images/pens-dark.png);
+  background-image: url(../images/icons/pens-dark.png);
   background-repeat: no-repeat;
   background-position: center; }
 
 .corona {
-  background-image: url(../images/corona-dark.png);
+  background-image: url(../images/icons/corona-dark.png);
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: 1px solid rgba(248, 240, 240, 0.2);
@@ -355,7 +355,7 @@ body {
     transform: translateX(-50%);
     opacity: 0; }
   .works img {
-    width: 380px;
+    width: 100%;
     height: 380px;
     display: block; }
   .works-link__instagram {
@@ -370,7 +370,7 @@ body {
 .services {
   position: static;
   background-color: #444444;
-  background-image: url(../images/bg-services.jpg);
+  background-image: url(../images/bg/bg-services.jpg);
   background-size: contain;
   background-position: left;
   background-repeat: no-repeat;
@@ -495,7 +495,7 @@ body {
 
 .appointment {
   background-color: #444444;
-  background-image: url(../images/bg-app.jpg);
+  background-image: url(../images/bg/bg-app.jpg);
   background-size: cover;
   color: #Fff;
   text-align: center;
@@ -539,11 +539,9 @@ body {
   .artist-wrapper {
     text-align: center; }
   .artist-photo {
-    max-width: 200px;
     width: 100%;
-    height: 170px;
-    border-radius: 20px;
-    padding: 0 1    0px;
+    border-radius: 30px;
+    padding: 0 10px;
     margin: 0 auto 20px;
     display: block; }
   .artist-name {
@@ -555,7 +553,8 @@ body {
     font-weight: 700;
     margin: 0 0 20px 0; }
   .artist-discr {
-    width: 300px;
+    max-width: 600px;
+    padding: 0 20px;
     margin: 0 auto 20px;
     line-height: 1.5;
     font-weight: 400; }
@@ -858,8 +857,7 @@ body {
   .appointment-title {
     padding: 10px 20px; }
   .artist-discr {
-    width: 100%;
-    max-width: 250px; }
+    width: 100%; }
   .footer-items {
     flex-direction: column; }
   .footer-item {
