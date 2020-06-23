@@ -24,7 +24,8 @@ $(function () {
 
     }); 
 
-    //  
+    //  Light box
+    
     lightbox.option({
         'resizeDuration': 200,
         'wrapAround': false,
